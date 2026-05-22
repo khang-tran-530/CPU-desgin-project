@@ -1,0 +1,211 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vacc
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1779410884
+!i10b 1
+!s100 QX]^`15Ojjhi20oJ@X2J10
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]MhKk@FECiEJA[a;<fF]W2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/k/CPU-design-project
+Z5 w1779408155
+8C:/Users/k/CPU-design-project/rtl/acc.sv
+FC:/Users/k/CPU-design-project/rtl/acc.sv
+!i122 8
+Z6 L0 1 16
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1779410884.000000
+!s107 C:/Users/k/CPU-design-project/rtl/acc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/k/CPU-design-project/rtl/acc.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+valu
+R0
+R1
+!i10b 1
+!s100 B;0:b^8AIzCFYm>@Nk90a3
+R2
+InIUl6MQWU:f9UZkkXhni@0
+R3
+S1
+R4
+R5
+8C:/Users/k/CPU-design-project/rtl/alu.sv
+FC:/Users/k/CPU-design-project/rtl/alu.sv
+!i122 9
+L0 1 61
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/k/CPU-design-project/rtl/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/k/CPU-design-project/rtl/alu.sv|
+!i113 1
+R9
+R10
+vcpu_top
+R0
+R1
+!i10b 1
+!s100 b>8D49NE`63kEEf5VPBDk3
+R2
+ISzIG><B47^m6aRJ5?BS0>2
+R3
+S1
+R4
+w1779410867
+8C:/Users/k/CPU-design-project/rtl/cpu_top.sv
+FC:/Users/k/CPU-design-project/rtl/cpu_top.sv
+!i122 10
+L0 1 85
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/k/CPU-design-project/rtl/cpu_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/k/CPU-design-project/rtl/cpu_top.sv|
+!i113 1
+R9
+R10
+vdata_mem
+R0
+R1
+!i10b 1
+!s100 zE6LbO3V_7EKBnefV3ePG2
+R2
+IIUz?LMLnLP@Xzh3BHl;^k3
+R3
+S1
+R4
+R5
+8C:/Users/k/CPU-design-project/rtl/data_mem.sv
+FC:/Users/k/CPU-design-project/rtl/data_mem.sv
+!i122 11
+L0 1 18
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/k/CPU-design-project/rtl/data_mem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/k/CPU-design-project/rtl/data_mem.sv|
+!i113 1
+R9
+R10
+vdecoder
+R0
+Z11 !s110 1779410885
+!i10b 1
+!s100 gCT[fC@lnWJkMek>zW^`R2
+R2
+IEfZ]Ye`<M0jgTOPBkRFi13
+R3
+S1
+R4
+R5
+8C:/Users/k/CPU-design-project/rtl/decoder.sv
+FC:/Users/k/CPU-design-project/rtl/decoder.sv
+!i122 12
+L0 1 63
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/k/CPU-design-project/rtl/decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/k/CPU-design-project/rtl/decoder.sv|
+!i113 1
+R9
+R10
+vinstr_mem
+R0
+R11
+!i10b 1
+!s100 1;_JTZGmHib3CWEWdOLoS1
+R2
+IL]6jBK7oz99iohYODhhCh0
+R3
+S1
+R4
+R5
+8C:/Users/k/CPU-design-project/rtl/instr_mem.sv
+FC:/Users/k/CPU-design-project/rtl/instr_mem.sv
+!i122 13
+R6
+R7
+r1
+!s85 0
+31
+Z12 !s108 1779410885.000000
+!s107 C:/Users/k/CPU-design-project/rtl/instr_mem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/k/CPU-design-project/rtl/instr_mem.sv|
+!i113 1
+R9
+R10
+vpc
+R0
+R11
+!i10b 1
+!s100 ?GKlmPVLSXTERKU`QPoT;2
+R2
+IDMHb@V<1bUPaFX7;CCSCJ0
+R3
+S1
+R4
+R5
+8C:/Users/k/CPU-design-project/rtl/pc.sv
+FC:/Users/k/CPU-design-project/rtl/pc.sv
+!i122 14
+L0 1 21
+R7
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/k/CPU-design-project/rtl/pc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/k/CPU-design-project/rtl/pc.sv|
+!i113 1
+R9
+R10
+vtb_cpu
+R0
+R11
+!i10b 1
+!s100 f[ligMeQ5CE72>DSG55[A3
+R2
+I<2bWc3[EYh2:]@F]X>N7>3
+R3
+S1
+R4
+R5
+8C:/Users/k/CPU-design-project/testbenches/tb_cpu.sv
+FC:/Users/k/CPU-design-project/testbenches/tb_cpu.sv
+!i122 15
+L0 3 43
+R7
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/k/CPU-design-project/testbenches/tb_cpu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/k/CPU-design-project/testbenches/tb_cpu.sv|
+!i113 1
+R9
+R10

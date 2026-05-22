@@ -19,6 +19,7 @@ module cpu_top (
     logic mem_write;
     logic use_mem;
     logic branch_taken;
+    logic done_instr;
 
     assign opcode = instr[8:5];
     assign operand = instr[4:0];
@@ -26,7 +27,7 @@ module cpu_top (
     pc PC_UNIT (
         .clk(clk),
         .reset(reset),
-        .start(start),
+        .start(start || done),
         .branch_taken(branch_taken),
         .target(operand),
         .pc_out(pc_out)
@@ -71,7 +72,14 @@ module cpu_top (
         .mem_write(mem_write),
         .use_mem(use_mem),
         .branch_taken(branch_taken),
-        .done(done)
+        .done(done_instr)
     );
+
+    always_ff @(posedge clk or posedge reset) begin
+        if (reset)
+            done <= 1'b0;
+        else if (done_instr)
+            done <= 1'b1;
+    end
 
 endmodule

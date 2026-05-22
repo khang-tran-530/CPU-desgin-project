@@ -1,0 +1,59 @@
+# Compile of acc.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of cpu_top.sv was successful.
+# Compile of data_mem.sv was successful.
+# Compile of decoder.sv was successful.
+# Compile of instr_mem.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of tb_cpu.sv was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.tb_cpu
+# vsim -gui work.tb_cpu 
+# Start time: 17:42:48 on May 21,2026
+# Loading sv_std.std
+# Loading work.tb_cpu
+# Loading work.cpu_top
+# Loading work.pc
+# Loading work.instr_mem
+# Loading work.data_mem
+# Loading work.alu
+# Loading work.acc
+# Loading work.decoder
+run 200ns
+# MEM[0] = 7
+# MEM[1] = 7
+# DONE = 0
+# TEST FAILED
+# ** Note: $stop    : C:/Users/k/CPU-design-project/testbenches/tb_cpu.sv(42)
+#    Time: 110 ns  Iteration: 0  Instance: /tb_cpu
+# Break in Module tb_cpu at C:/Users/k/CPU-design-project/testbenches/tb_cpu.sv line 42
+# Compile of acc.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of cpu_top.sv was successful.
+# Compile of data_mem.sv was successful.
+# Compile of decoder.sv was successful.
+# Compile of instr_mem.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of tb_cpu.sv was successful.
+# 8 compiles, 0 failed with no errors.
+run 200ns
+run 200ns
+run 200ns
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_cpu
+# Loading work.cpu_top
+# Loading work.pc
+# Loading work.instr_mem
+# Loading work.data_mem
+# Loading work.alu
+# Loading work.acc
+# Loading work.decoder
+run 200ns
+# MEM[0] = 7
+# MEM[1] = 7
+# DONE = 1
+# TEST PASSED
+# ** Note: $stop    : C:/Users/k/CPU-design-project/testbenches/tb_cpu.sv(42)
+#    Time: 110 ns  Iteration: 0  Instance: /tb_cpu
+# Break in Module tb_cpu at C:/Users/k/CPU-design-project/testbenches/tb_cpu.sv line 42

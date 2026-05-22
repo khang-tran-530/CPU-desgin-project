@@ -1,0 +1,50 @@
+C:/Users/k/CPU-design-project/testbenches/tb_cpu.sv {1 {vlog -work work -sv -stats=none C:/Users/k/CPU-design-project/testbenches/tb_cpu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_cpu
+
+Top level modules:
+	tb_cpu
+
+} {} {}} C:/Users/k/CPU-design-project/rtl/pc.sv {1 {vlog -work work -sv -stats=none C:/Users/k/CPU-design-project/rtl/pc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/k/CPU-design-project/rtl/acc.sv {1 {vlog -work work -sv -stats=none C:/Users/k/CPU-design-project/rtl/acc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module acc
+
+Top level modules:
+	acc
+
+} {} {}} C:/Users/k/CPU-design-project/rtl/data_mem.sv {1 {vlog -work work -sv -stats=none C:/Users/k/CPU-design-project/rtl/data_mem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} C:/Users/k/CPU-design-project/rtl/instr_mem.sv {1 {vlog -work work -sv -stats=none C:/Users/k/CPU-design-project/rtl/instr_mem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instr_mem
+
+Top level modules:
+	instr_mem
+
+} {} {}} C:/Users/k/CPU-design-project/rtl/decoder.sv {1 {vlog -work work -sv -stats=none C:/Users/k/CPU-design-project/rtl/decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} C:/Users/k/CPU-design-project/rtl/alu.sv {1 {vlog -work work -sv -stats=none C:/Users/k/CPU-design-project/rtl/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}
